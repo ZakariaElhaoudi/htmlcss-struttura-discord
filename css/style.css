@@ -4,6 +4,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+a{
+    text-decoration: none;
+}
 
 body{
     text-align: center;
@@ -40,18 +43,18 @@ header{
 /* regole corpo centrale */
 
 .conteiner{
-    height: 800px;
-    width: 80%;
+    /* height: 800px;
+    width: 80%; */
     margin: 50px auto;
     
 }
 
 .settler{
     display: flex;
+    flex-wrap: wrap;
     width: 80%;
-    margin-top: 50px;
     justify-content: space-between;
-    /* align-items: center; */
+    align-items: flex-start;
 
 }
 
@@ -69,6 +72,15 @@ footer{
     height: 600px;
     
 }
+
+.link-footer{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-around;
+    border: solid 2px black;
+}
+
 
 
 
@@ -96,8 +108,7 @@ footer{
 }
 
 .conteiner{
-    height: 800px;
-    width: 80%;
+
     margin: 50px auto;
     border: solid 2px black;
     background-color: coral;
@@ -115,14 +126,14 @@ footer{
 .column-img {
     width: 45%;
     background-color: aquamarine;
-    height: 100px;
+    
 
 
 }
 .column-text {
     width: 45%;
     background-color: aquamarine;
-    height: 100px;
+    /* height: 100px; */
 
 
 

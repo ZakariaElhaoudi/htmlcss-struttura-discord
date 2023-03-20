@@ -24,9 +24,17 @@ header{
     width: 60%;
     margin: auto;
 }
-.button-header{
-    border-radius: 25%;
-    width: ;
+.button{
+    border-radius: 28px;
+    font-size: 20px;
+    padding: 16px 32px;
+    
+
+}
+
+.dark{
+    background-color: #23272a;
+    color: white;
 
 }
 /* regole corpo centrale */
@@ -45,6 +53,14 @@ header{
     justify-content: space-between;
     /* align-items: center; */
 
+}
+
+.column-img {
+    width: 45%;
+}
+
+.column-text {
+    width: 45%;
 }
 
 

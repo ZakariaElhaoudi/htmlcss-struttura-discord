@@ -9,6 +9,7 @@
 
 header{
     height: 500px;
+    margin-bottom: 60px;
 }
 .link-menu{
     display: flex;
@@ -17,12 +18,30 @@ header{
     justify-content: space-around;
     width: 60%;
     margin: auto;
+}
+/* regole corpo centrale */
 
+.conteiner{
+    height: 800px;
+    width: 80%;
+    margin: 50px auto;
+    
+}
+
+.settler{
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
 
 }
 
 
 /* regole footer  */
+footer{
+    height: 600px;
+    
+}
 
 
 
@@ -43,4 +62,29 @@ header{
     width: 50%;
     margin: 200px auto;
     background-color: red;
+}
+
+footer{
+    background-color: brown;
+}
+
+.conteiner{
+    height: 800px;
+    width: 80%;
+    margin: 50px auto;
+    border: solid 2px black;
+    background-color: coral;
+    
+}
+
+.settler{
+    display: flex;
+    width: 80%;
+    background-color: darkblue;
+    height: 200px;
+
+}
+.column{
+    width: 45%;
+
 }

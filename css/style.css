@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+body{
+    text-align: center;
+}
+
+
 /* regole header */
 
 header{
@@ -19,6 +24,11 @@ header{
     width: 60%;
     margin: auto;
 }
+.button-header{
+    border-radius: 25%;
+    width: ;
+
+}
 /* regole corpo centrale */
 
 .conteiner{
@@ -31,8 +41,9 @@ header{
 .settler{
     display: flex;
     width: 80%;
-    justify-content: center;
-    align-items: center;
+    margin-top: 50px;
+    justify-content: space-between;
+    /* align-items: center; */
 
 }
 
@@ -80,11 +91,23 @@ footer{
 .settler{
     display: flex;
     width: 80%;
+    margin: auto;
     background-color: darkblue;
     height: 200px;
 
 }
-.column{
+.column-img {
     width: 45%;
+    background-color: aquamarine;
+    height: 100px;
+
+
+}
+.column-text {
+    width: 45%;
+    background-color: aquamarine;
+    height: 100px;
+
+
 
 }
